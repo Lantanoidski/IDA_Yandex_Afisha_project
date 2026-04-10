@@ -1,0 +1,35 @@
+# Виртуальные окружения
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter Notebook временные файлы
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Чувствительные данные
+.env
+*.key
+*.pem
+credentials.json
+
+# Логи и временные данные
+*.log
+tmp/
+temp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Данные (если они большие или конфиденциальные)
+data/raw/*
+!data/raw/.gitkeep
